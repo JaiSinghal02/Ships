@@ -1,0 +1,40 @@
+body{
+    width:100%;
+    height: 100%;
+    margin: 0;
+    top: 0;
+    left:0;
+    background-color: #00171f;
+    color:#3da4af;
+}
+.ships-counter-container{
+    display: flex;
+    width: 100%;
+    height:25px;
+    justify-content: center;
+    align-items: center;
+}
+.ships-counter-div{
+    width: 450px;
+    max-width: 84%;
+    height:25px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2px;
+}
+.ships-counter{
+    margin:0;
+    left:150px;
+    font-weight: lighter;
+}
+
+@media only screen and (max-width:785px) and (min-width:550px){
+    .ships-counter-div{
+        width: 400px;
+        max-width: 55%;
+        height:25px;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 2px;
+    }
+}
